@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <title>CricInfo</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="index.html">
+              <h1><span>C</span>ric <span>I</span>nfo</h1>
+            </a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="schedule.html">Schedule</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="rankings.html">Rankings</a></li>
+              <li><a href="login.html">Login</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <form
+        id="form1"
+        method="POST"
+        name="form"
+        action=""
+        onsubmit="event.preventDefault(); login()"
+      >
+        <fieldset>
+          <legend>Login</legend>
+          <div id="signin">
+            <label for="myEmail" class="email">E-mail:</label>
+            <input
+              type="email"
+              name="myEmail"
+              id="myEmail"
+              class="inputbox email"
+              required
+            />
+            <label for="pwd" class="password">Password:</label>
+            <input
+              type="password"
+              name="pwd"
+              id="pwd"
+              class="inputbox password"
+              required
+            />
+            <p>New user? <a href="#form2"> Register</a></p>
+          </div>
+        </fieldset>
+        <div class="buttons">
+          <input type="submit" value="Submit" class="press" id="submit1" />
+          <input type="submit" value="Reset" class="press" id="reset2" />
+        </div>
+      </form>
+
+      <form
+        id="form2"
+        method="POST"
+        name="form"
+        action=""
+        onsubmit="event.preventDefault(); register()"
+      >
+        <fieldset>
+          <legend>Register</legend>
+          <label for="fname">First Name:</label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            class="inputbox"
+            required
+          />
+          <label for="lname">Last Name:</label>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            class="inputbox"
+            required
+          />
+          <label for="myEmail">E-mail:</label>
+          <input
+            type="text"
+            name="myEmail"
+            id="myEmail"
+            class="inputbox"
+            required
+          />
+          <label for="pwd">Password:</label>
+          <input
+            type="password"
+            name="pwd"
+            id="pwd"
+            class="inputbox"
+            required
+          />
+
+          <label for="repwd">Confirm-Password:</label>
+          <input
+            type="password"
+            name="pwd"
+            id="repwd"
+            class="inputbox"
+            required
+          />
+          <label for="phone">Phone:</label>
+          <input
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="999-999-9999"
+            class="inputbox"
+            required
+          />
+          <label for="address">Address:</label>
+          <textarea
+            name="address"
+            id="address-1"
+            rows="2"
+            cols="50"
+            class="inputbox"
+          >
+          </textarea>
+          <h4>Or</h4>
+
+          <div class="socialbutton">
+            <button class="facebook">Login with facebook</button>
+            <button class="twitter">Login with Twitter</button>
+            <button class="google">Login with Google+</button>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Membership Type</legend>
+          <div class="radio">
+            <span>
+              <input type="radio" name="radio" id="gold" checked />
+              <p class="radiotxt">Gold</p></span
+            >
+            <span
+              ><input type="radio" name="radio" id="silver" />
+              <p class="radiotxt">Silver</p></span
+            >
+            <span
+              ><input type="radio" name="radio" id="platinum" />
+              <p class="radiotxt">Platinum</p></span
+            >
+            <span
+              ><input type="radio" name="radio" id="prime" />
+              <p class="radiotxt">Prime</p></span
+            >
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Payment Options</legend>
+          <div class="payment">
+            <input
+              type="text"
+              name="cardno"
+              id="cardno"
+              class="inputbox"
+              placeholder="Debit/Credit Card Number"
+              required
+            />
+            <input
+              type="text"
+              name="cardname"
+              id="cardname"
+              class="inputbox"
+              placeholder="Name On The Card"
+              required
+            />
+            <input
+              type="text"
+              name="cardname"
+              id="expdate"
+              class="inputbox"
+              placeholder="Expiration Date (DD/MM/YYYY)"
+              required
+            />
+            <input
+              type="text"
+              name="cardname"
+              id="cvv"
+              class="inputbox"
+              placeholder="CVV"
+              required
+            />
+            <p id="paymentp">Powered By:</p>
+            <img
+              src="images/payment1.png"
+              alt="payment options"
+              id="paymentimg"
+            />
+          </div>
+        </fieldset>
+        <div class="buttons">
+          <input type="submit" value="Submit" class="press" id="submit2" />
+          <input type="submit" value="Reset" class="press" id="reset2" />
+        </div>
+      </form>
+    </main>
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand">
+          <h1><span>C</span>ric <span>I</span>nfo</h1>
+        </div>
+        <h2>Your Daily Dose of Cricket.</h2>
+        <p>
+          <a href="privacy.html">Privacy</a> |
+          <a href="terms.html">Terms & Conditions</a> |
+          <a href="contact.html">Contact</a> |
+          <a href="mailto:support@cricinfo.com">Support</a><br />
+          Copyright © 2021 CricInfo. All rights reserved
+        </p>
+      </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./app.js"></script>
+  </body>
+</html>
