@@ -6,4 +6,4 @@ A Responsive Cricket Website using HTML and CSS.
 
 Home Page
 
-![Output1](https://github.com/s0ur4v17/Cryptarithm-Puzzle/blob/main/Output1.png "Output1")
+![Home](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/Home.png) "Home")
