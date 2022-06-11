@@ -6,20 +6,20 @@ A Responsive Cricket Website using HTML and CSS.
 
 Home Page
 
-![Home](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/Home.png) "Home")
+![Home](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/Home.png)
 
 Schedule Page
 
-![Schedule](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/Schedule.png) "Schedule")
+![Schedule](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/Schedule.png)
 
 News Page
 
-![News](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/News.png) "News")
+![News](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/News.png)
 
 Rankings Page
 
-![Rankings](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/Rankings.png) "Rankings")
+![Rankings](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/Rankings.png)
 
 Login Page
 
-![Login](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/Login.png) "Login")
+![Login](https://github.com/s0ur4v17/Cricinfo-Using-HTML-CSS/blob/main/Screenshots/Login.png)
